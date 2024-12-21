@@ -14,7 +14,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Julian -->
     <link rel="icon" href="img/logo.png">
-    <title>Universitas Pamulang</title>
+    <title>Universitas Pamulang | Hubungi kami</title>
 </head>
 
 <body>
@@ -42,19 +42,40 @@
     </nav>
     <!-- end navbar -->
 
-    <!-- hero -->
-    <section class="hero">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h2>Selamat Datang di Website Resmi Universitas Pamulang</h2>
-                    <p>Tempat Inspirasi, Inovasi, dan Pendidikan Berkualitas</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end hero -->
 
+    <header>
+        <h1>Kontak Universitas Pamulang (UNPAM)</h1>
+        <p>Silakan hubungi kami untuk informasi lebih lanjut.</p>
+    </header>
+
+    <div style="margin-bottom: 400px;" class="container">
+        <h2>Informasi Kontak</h2>
+        <p>Berikut adalah cara Anda dapat menghubungi Universitas Pamulang:</p>
+        <ul class="contact-info">
+            <li><strong>Email:</strong> info@unpam.ac.id</li>
+            <li><strong>Telepon:</strong> (021) 123-4567</li>
+            <li><strong>Alamat:</strong> Jl. Surya Kencana No. 1, Pamulang, Tangerang Selatan, Banten</li>
+        </ul>
+
+        <h2>Formulir Kontak</h2>
+        <p>Jika Anda memiliki pertanyaan atau komentar, Anda dapat mengirim pesan melalui formulir di bawah ini:</p>
+        <form action="/submit_contact_form" method="post">
+            <label for="name">Nama Lengkap</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Alamat Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Pesan Anda</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Kirim Pesan">
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Universitas Pamulang (UNPAM). All rights reserved.</p>
+    </footer>
     <!-- footer -->
     <footer>
         &copy; 2024 | Julian Ilhan
