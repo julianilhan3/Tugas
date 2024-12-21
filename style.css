@@ -1,0 +1,47 @@
+.navbar .navbar-nav .nav-link a{
+    color : white;
+}
+.navbar .navbar-brand img {
+    width : 100px;
+}
+
+.navbar .navbar-nav {
+    margin : auto;
+}
+
+
+.hero {
+    height : 570px; 
+    text-align : center;
+    background-image: url(./img/KAMPUS-II-viktor.jpg);
+    background-size : cover;
+}
+
+.hero h2 {
+    margin-top : 150px;
+    color : white; 
+    font-size : 42px;
+}
+.hero p {
+    color : white; 
+    font-size : 24px;
+}
+
+footer {
+
+    background-color: #333;
+    color : black;
+    text-align: center;
+    padding: 18px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color : #FFC401;
+}
+footer a {
+ text-decoration: none;
+ color : black;
+}
+footer a:hover {
+    text-decoration: underline;
+}
